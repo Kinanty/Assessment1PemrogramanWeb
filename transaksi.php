@@ -9,8 +9,8 @@
         $jumlahBarang1 = $_POST["jumlah_barang1"];
         $jumlahBarang2 = $_POST["jumlah_barang2"];
         $jumlahBarang3 = $_POST["jumlah_barang3"];
-        $uangPembayaran = $_POST["uang_pembayaran"]
-    
+        $uangPembayaran = $_POST["uang_pembayaran"];
+
 ?>
 <table>
     <tr>
@@ -42,7 +42,19 @@
         <td>1</td>
         <td><?php echo $barang1;?></td>
         <td><?php echo $jumlahBarang1;?></td>
-        <td><?php echo $barang1[$value]; ?></td>
+        <td><?php  ?></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><?php echo $barang2;?></td>
+        <td><?php echo $jumlahBarang2;?></td>
+        <td><?php  ?></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><?php echo $barang3;?></td>
+        <td><?php echo $jumlahBarang3;?></td>
+        <td><?php  ?></td>
     </tr>
 </table>
 <?php
