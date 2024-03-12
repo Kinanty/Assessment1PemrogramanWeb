@@ -32,12 +32,17 @@
 <p>Detail Pembelian</p>
 <table>
     <tr>
-        <th style="width:5%;">No</th>
-        <th style="width:27%;">Nama Barang</th>
-        <th style="width:20%;">Qty</th>
-        <th class="text-center" style="width:16%;">Harga</th>
-        <th class="text-center" style="width:16%;">Jumlah</th>
+        <th>No</th>
+        <th>Nama Barang</th>
+        <th>Qty</th>
+        <th>Harga</th>
+        <th>Jumlah</th>
     </tr>
+    <tr>
+        <td>1</td>
+        <td><?php echo $barang1;?></td>
+        <td><?php echo $jumlahBarang1;?></td>
+        <td><?php echo $barang1[$value]; ?></td>
     </tr>
 </table>
 <?php
